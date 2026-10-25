@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Siewnik — kiedy siać warzywa</title>
+<meta name="description" content="Wybierz warzywo i sprawdź, kiedy je siać, kiedy zbierać — i czy akurat teraz jest dobry moment.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <!-- TODO: link do portfolio, gdy powstanie -->
+  <h1>Siewnik ogrodnika</h1>
+  <p>Kiedy siać, kiedy zbierać — bez wertowania kalendarzy.</p>
+  <section class="card">
+    <label>Warzywo <select id="veg"></select></label>
+  </section>
+  <section class="card">
+    <h2 id="name"></h2>
+    <div id="out" class="big"></div>
+    <p id="detail" class="hint"></p>
+  </section>
+  <div id="ads-slot" hidden></div>
+  <footer><a href="privacy.html">Prywatność</a> · <a href="kontakt.html">Kontakt</a></footer>
+</main>
+<script src="app.js"></script>
+<script src="ads.js"></script>
+</body>
+</html>
